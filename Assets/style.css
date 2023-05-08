@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#search-history{
+    font-size: 1rem;
+    color: black;
+}
+#search-button{
+    cursor: pointer;
+}
+#city-history{
+    cursor: pointer;
+}
+header{
+    color:antiquewhite;
+    text-align: center;
+    font-size:1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    border:1px solid violet;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 0 10px orchid;
+}
+
+.container {
+    padding: 20px 70px;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+.card-column{
+    flex: 1 1 50px;
+    margin:100px;
+    background:papayawhip;
+    border-radius: 0.5rem;
+}
+.card-block {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 15px; 
+    border: 1px solid pink;
+    border-radius: 1rem; 
+    text-align: center; 
+    min-height: 200px; 
+    box-shadow: 0 0 10px pink 
+  }
+  
+  @media screen and (min-width: 768px) {
+  }
